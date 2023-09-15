@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Slider</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.Load{
+			animation: slide 2s;
+		}
+		.Slider{
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			height: 100vh;
+			animation: slide 30s infinite;
+		}
+		.Content{
+			color: #fff;
+			width: 100%;
+			height: 100vh;
+			background-color: rgba(0,0,0,0.2);
+		}
+		.Prin{
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			letter-spacing: 5px;
+			text-align: center;
+			background-color: rgba(0,0,0,0.3);
+			border-radius: 10px 10px 10px 10px;
+			margin: 5px 10px 0px 10px;
+			padding: 30px 30px 30px 30px;
+		}
+		.Prin h1{
+                                      
+			font-size: 30px;
+			margin-bottom: 20px;
+			font-family: Arial Black;
+			font-weight: bold;
+			background: linear-gradient(to right,orange,white,green);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+                    
+		.Prin p{
+			font-size: 30px;
+           
+		}
+		.id{
+		              font-size: 30px;
+			margin-bottom: 20px;
+			font-family: Montserrat, Serif ;
+			font-weight: bold;
+			background: linear-gradient(to right,orange,blue,green);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			margin-left : 2%;
+			float : left;
+		}
+		.dropbtn {
+  			background-color: white;
+  			color: blue;
+  			padding: 5px;
+  			font-size: 25px;
+  			border: none;
+  			cursor: pointer;
+  			border-radius: 10px 10px 10px 10px;
+			margin: 5px 10px 0px 10px;
+                                         
+		}
+
+		.dropdown {
+  			position: relative;
+  			display: inline-block;
+			float: right;
+			padding: 0px 30px 0px 0px;
+		}
+
+
+		.dropdown-content{
+  			display: none;
+  			position: absolute;
+			right: 0;
+  			background-color: #f9f9f9;
+  			min-width: 160px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  			z-index: 1;
+			background-image: linear-gradient(to right, white , #ff9966);
+		}
+
+		.dropdown-content a {
+  			color: black;
+  			padding: 12px 16px;
+  			text-decoration: none;
+  			display: block;
+		}
+		.dropdown-content a:hover {background-color: #f5f5f5}
+
+		.dropdown:hover .dropdown-content {
+  			display: block;
+		}
+
+		.dropdown:hover .dropbtn {
+  			background-color: Transparent;
+			color: yellow;
+				
+		}
+		@keyframes slide{
+			0%{
+				background-image: url("1.jpg");
+			}
+			20%{
+				background-image: url("2.jpg");
+			}
+			20.01%{
+				background-image: url("3.jpg");
+			}
+			40%{
+				background-image: url("4.jpg");
+			}
+			40.01%{
+				background-image: url("5.jpg");
+			}
+			60%{
+				background-image: url("6.jpg");
+			}
+			60.01%{
+				background-image: url("7.jpg");
+			}
+			80%{
+				background-image: url("8.jpg");
+			}
+			80.01%{
+				background-image: url("12.jpg");
+			}
+			100%{
+				background-image: url("10.jpg");
+			}
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div class="Slider">
+		<div class="Load">
+		
+		</div>
+
+		<div class="Content">
+			<div class="Menu">
+				<div class="id">Indian Defence System
+					</div>
+                         
+                                                
+				<div class="dropdown">
+  					<button class="dropbtn"><a href="about us.HTML">About Us</a></button>
+  					<div class="dropdown-content" style="right:0;">
+  						
+  					</div>
+				</div>
+			
+<div class="dropdown">
+  					<button class="dropbtn">Info</button>
+  					<div class="dropdown-content" style="right:0;">				<a href="2016.HTML">2016</a>
+					<a href="2017.HTML">2017</a>
+					<a href="2018.HTML">2018</a>
+
+  					</div>
+				</div>
+<div class="dropdown">
+  					<button class="dropbtn"><a href="services.HTML">Services</a></button>
+  					<div class="dropdown-content" style="right:0;">
+  	
+  					</div>
+				</div>
+
+<div class="dropdown">
+  					<button class="dropbtn"><a href="home.HTML">Home</a></button>
+  					<div class="dropdown-content" style="right:0;">
+  	
+  					</div>
+				</div>
+<div class="dropdown">
+  					<button class="dropbtn">Organisation</button>
+  					<div class="dropdown-content" style="right:0;">				<a href="INDIAN ARMY.HTML">Indian Army</a>
+					<a href="INDIAN NAVY.HTML">Indian Navy</a>
+					<a href="INDIAN AIR FORCE.HTML">Indian Air Force</a>
+  					</div>
+				</div>
+                                                            <div class="Prin">
+				<h1>DEFENCE SYSTEM OF INDIA</h1>
+                                      		
+			</div>
+                                   </div>
+	</div>
+	
+</body>
+</html> 
